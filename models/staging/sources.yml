@@ -1,0 +1,39 @@
+version: 2
+
+sources:
+  - name: raw
+    database: marutiautodwh
+    schema: raw
+    tables:
+      - name: erp_plant
+      - name: erp_vendor
+      - name: erp_material
+      - name: erp_brand
+      - name: erp_model
+      - name: erp_variant
+      - name: erp_dealer
+      - name: erp_showroom
+      - name: erp_service_center
+      - name: erp_customer
+      - name: erp_salesperson
+      - name: erp_purchase_contract
+      - name: erp_purchase_contract_line
+      - name: erp_po_header
+      - name: erp_po_line
+      - name: erp_grn
+      - name: erp_vehicle_production
+      - name: erp_production_daily
+      - name: erp_plant_inventory_snap
+      - name: erp_vehicle_dispatch
+      - name: erp_dealer_stock_snap
+      - name: erp_booking
+      - name: erp_sales_invoice_hdr
+      - name: erp_sales_invoice_line
+      - name: erp_fault_code
+      - name: erp_service_job_type
+      - name: erp_service_order_hdr
+      - name: erp_service_order_line
+      - name: erp_warranty_claim
+      - name: erp_customer_feedback
+      - name: erp_demand_forecast
+      - name: erp_backlog_snapshot
